@@ -17,6 +17,10 @@ namespace FourButtons
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("蘇意文");
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("我是浩哥");
